@@ -12,9 +12,13 @@
       "minecraft:old_growth_birch_forest": "2025-03-14 12:09:01 +0200",
       "minecraft:ocean": "2025-03-03 18:30:57 +0200",
       "minecraft:sunflower_plains": "2025-03-08 18:41:49 +0200",
+      "minecraft:cherry_grove": "2025-05-01 12:36:02 +0300",
+      "minecraft:grove": "2025-05-01 12:42:33 +0300",
+      "minecraft:meadow": "2025-05-01 12:41:51 +0300",
       "minecraft:birch_forest": "2025-02-28 17:02:33 +0200",
       "minecraft:windswept_savanna": "2025-03-14 12:04:14 +0200",
-      "minecraft:plains": "2025-02-28 17:06:07 +0200"
+      "minecraft:plains": "2025-02-28 17:06:07 +0200",
+      "minecraft:pale_garden": "2025-05-01 12:42:31 +0300"
     },
     "done": false
   },
@@ -476,6 +480,7 @@
       "bread": "2025-02-28 17:19:11 +0200",
       "cooked_chicken": "2025-03-07 17:43:01 +0200",
       "honey_bottle": "2025-04-05 15:13:45 +0300",
+      "cookie": "2025-05-01 17:36:21 +0300",
       "cooked_mutton": "2025-03-01 16:32:23 +0200",
       "potato": "2025-03-04 15:44:08 +0200",
       "cooked_beef": "2025-03-01 16:17:12 +0200",
@@ -3175,39 +3180,21 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-04-27 15:17:08 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_nether_bricks": "2025-04-27 15:17:13 +0300"
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
-    "criteria": {
-      "deflected_projectile": "2025-04-27 15:24:34 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/magma_cream": {
-    "criteria": {
-      "has_blaze_powder": "2025-04-27 15:26:41 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2025-04-27 15:45:24 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-04-27 15:17:13 +0300"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2025-04-27 15:26:30 +0300"
     },
     "done": true
   },
@@ -3223,27 +3210,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_wart_block": {
-    "criteria": {
-      "has_nether_wart": "2025-04-27 15:20:56 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ender_eye": {
-    "criteria": {
-      "has_blaze_powder": "2025-04-27 15:26:41 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-04-27 15:17:13 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/blaze_powder": {
-    "criteria": {
-      "has_blaze_rod": "2025-04-27 15:26:30 +0300"
     },
     "done": true
   },
@@ -3259,15 +3228,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2025-04-27 15:26:41 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall": {
     "criteria": {
       "has_nether_bricks": "2025-04-27 15:17:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-04-27 15:17:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-04-27 15:20:56 +0300"
     },
     "done": true
   },
@@ -3277,15 +3252,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ender_chest": {
+  "minecraft:story/deflect_arrow": {
     "criteria": {
-      "has_ender_eye": "2025-04-27 15:45:24 +0300"
+      "deflected_projectile": "2025-04-27 15:24:34 +0300"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "fortress": "2025-04-27 15:17:08 +0300"
+      "blaze_rod": "2025-04-27 15:26:30 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-04-27 15:26:30 +0300"
     },
     "done": true
   },
@@ -3295,9 +3276,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/nether_brick_fence": {
+  "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
-      "has_nether_bricks": "2025-04-27 15:17:13 +0300"
+      "has_blaze_powder": "2025-04-27 15:26:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-27 15:26:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-27 15:26:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-04-27 15:45:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-04-27 15:45:24 +0300"
+    },
+    "done": true
+  },
+  "yogev:recipes/misc/yogev": {
+    "criteria": {
+      "has_the_recipe": "2025-04-30 17:37:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-05-01 12:42:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-01 12:42:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye_from_closed_eyeblossom": {
+    "criteria": {
+      "has_closed_eyeblossom": "2025-05-01 12:44:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_closed_eyeblossom": {
+    "criteria": {
+      "has_closed_eyeblossom": "2025-05-01 12:44:12 +0300"
     },
     "done": true
   },
